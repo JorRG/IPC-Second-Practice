@@ -1,0 +1,10 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+ #boton {
+    -fx-background-color:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(179,77,26) 0.0, rgb(255,255,255) 100.0)
+}
+#botCerrar {
+    -fx-background-color:rgb(216,109,29);
+}
+#ap{
+	-fx-background-color:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(77,128,77) 0.0, rgb(255,255,255) 100.0);
+}

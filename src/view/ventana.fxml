@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane fx:id="ap" prefHeight="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.controlador">
+   <children>
+      <GridPane fx:id="gp" gridLinesVisible="true" layoutX="0.5" layoutY="0.5" onKeyPressed="#desplazar" AnchorPane.topAnchor="0.5">
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" />
+         </rowConstraints>
+         <columnConstraints>
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Button fx:id="boton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Button fx:id="botCerrar" focusTraversable="false" layoutX="200.0" layoutY="525.0" mnemonicParsing="false" onMouseClicked="#cerrar" prefHeight="50.0" prefWidth="100.0" text="Cerrar" textFill="#f8f4f4" />
+   </children>
+</AnchorPane>
